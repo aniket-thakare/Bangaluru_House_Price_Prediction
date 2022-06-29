@@ -4,6 +4,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
+import sklearn
 
 pickele_in = open('bhpm.pkl','rb')
 lr = pickle.load(pickele_in)
