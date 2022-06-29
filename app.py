@@ -17,10 +17,9 @@ def predict_price(location,sqft,bath,bhk):
     X[0] = sqft
     X[1] = bath
     X[2] = bhk
-    # if loc_index >= 0:
-    #     X[loc_index] = 1
+   
 
-    return np.round(lr.predict([X])[0],3)    
+    return np.round(lr.predict([X])[0],2)    
 
 def main():
     home = pd.read_csv('Bengaluru_House_Data.csv')
