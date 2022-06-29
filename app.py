@@ -43,5 +43,6 @@ def main():
         result = predict_price(location,sqrt,bath,bhk)
         st.success(f'The Final Price Is\f\f{ result}\f/- Lacks')
 
+
 if __name__ == '__main__':
     main()
