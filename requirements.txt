@@ -1,0 +1,143 @@
+altair==4.2.0
+appnope==0.1.2
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+asttokens==2.0.5
+attrs==21.4.0
+backcall==0.2.0
+beautifulsoup4==4.10.0
+bleach==4.1.0
+blinker==1.4
+blis==0.7.8
+Bottleneck @ file:///opt/concourse/worker/volumes/live/ac8c8ef3-2ed0-42e9-6ec0-5bb05ad938f6/volume/bottleneck_1607575111469/work
+cachetools==5.2.0
+catalogue==2.0.7
+certifi==2021.10.8
+cffi==1.15.0
+charset-normalizer==2.0.12
+click==8.1.3
+cloudpickle @ file:///tmp/build/80754af9/cloudpickle_1632508026186/work
+colorama @ file:///tmp/build/80754af9/colorama_1607707115595/work
+commonmark==0.9.1
+cycler @ file:///tmp/build/80754af9/cycler_1637851556182/work
+cymem==2.0.6
+debugpy==1.5.1
+decorator==5.1.1
+defusedxml==0.7.1
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.3.0/en_core_web_sm-3.3.0-py3-none-any.whl
+entrypoints==0.4
+executing==0.8.3
+fonttools==4.25.0
+gitdb==4.0.9
+GitPython==3.1.27
+idna==3.3
+importlib-metadata==4.12.0
+ipykernel==6.9.2
+ipython==8.1.1
+ipython-genutils==0.2.0
+ipywidgets==7.7.0
+jedi==0.18.1
+Jinja2==3.0.3
+joblib @ file:///tmp/build/80754af9/joblib_1635411271373/work
+jsonschema==4.4.0
+jupyter-client==7.1.2
+jupyter-console==6.4.3
+jupyter-core==4.9.2
+jupyterlab-pygments==0.1.2
+jupyterlab-widgets==1.1.0
+kiwisolver @ file:///Users/builder/miniconda3/envs/prefect/conda-bld/kiwisolver_1638569885739/work
+langcodes==3.3.0
+llvmlite==0.37.0
+MarkupSafe==2.1.1
+matplotlib @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_croot-hkd3cnd2/matplotlib-suite_1647506470899/work
+matplotlib-inline==0.1.3
+mistune==0.8.4
+mixin==1.1
+mkl-fft==1.3.1
+mkl-random @ file:///opt/concourse/worker/volumes/live/0cda23d8-7460-44b2-7e5d-3c76a8a0ca7e/volume/mkl_random_1626186083266/work
+mkl-service==2.4.0
+munkres==1.1.4
+murmurhash==1.0.7
+nbclient==0.5.13
+nbconvert==6.4.4
+nbformat==5.2.0
+nest-asyncio==1.5.4
+networkx==2.8.4
+nltk==3.7
+notebook==6.4.12
+numba @ file:///Users/builder/miniconda3/envs/prefect/conda-bld/numba_1635176853722/work
+numexpr @ file:///opt/concourse/worker/volumes/live/87ac54fe-281a-440d-4d94-26ac99bdabdc/volume/numexpr_1640704258458/work
+numpy @ file:///opt/concourse/worker/volumes/live/9909a8d0-9b8e-44eb-6059-6c668078c029/volume/numpy_and_numpy_base_1626271794641/work
+opencv-python==4.5.5.64
+packaging @ file:///tmp/build/80754af9/packaging_1637314298585/work
+pandas==1.4.1
+pandocfilters==1.5.0
+parso==0.8.3
+pathy==0.6.1
+pexpect==4.8.0
+pickle-mixin==1.0.2
+pickleshare==0.7.5
+Pillow==9.0.1
+preshed==3.0.6
+prometheus-client==0.13.1
+prompt-toolkit==3.0.28
+protobuf==3.20.1
+psutil==5.9.0
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pyarrow==8.0.0
+pycparser==2.21
+pydantic==1.8.2
+pydeck==0.7.1
+Pygments==2.11.2
+Pympler==1.0.1
+pyparsing @ file:///tmp/build/80754af9/pyparsing_1635766073266/work
+pyrsistent==0.18.1
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+pytz==2021.3
+pytz-deprecation-shim==0.1.0.post0
+pyzmq==22.3.0
+qtconsole==5.2.2
+QtPy==2.0.1
+regex==2022.6.2
+requests==2.28.0
+rich==12.4.4
+scikit-learn @ file:///opt/concourse/worker/volumes/live/cffa5efe-beec-4a37-5774-350794e43990/volume/scikit-learn_1642617139916/work
+scipy @ file:///opt/concourse/worker/volumes/live/9284487f-601d-4bc3-5556-535c4949d341/volume/scipy_1641557769615/work
+seaborn @ file:///tmp/build/80754af9/seaborn_1629307859561/work
+semver==2.13.0
+Send2Trash==1.8.0
+shap @ file:///opt/concourse/worker/volumes/live/b4f7efcd-c2bc-4c92-5a47-1598d6088e72/volume/shap_1633430402148/work
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+slicer @ file:///tmp/build/80754af9/slicer_1633422823758/work
+smart-open==5.2.1
+smmap==5.0.0
+soupsieve==2.3.1
+spacy==3.3.1
+spacy-legacy==3.0.9
+spacy-loggers==1.0.2
+srsly==2.4.3
+stack-data==0.2.0
+streamlit==1.10.0
+terminado==0.13.3
+testpath==0.6.0
+textblob==0.17.1
+thinc==8.0.17
+threadpoolctl @ file:///Users/ktietz/demo/mc3/conda-bld/threadpoolctl_1629802263681/work
+toml==0.10.2
+toolz==0.11.2
+tornado @ file:///opt/concourse/worker/volumes/live/2c1a63a2-006b-48ee-56b9-0cfe8b4927f9/volume/tornado_1606942321278/work
+tqdm @ file:///opt/conda/conda-bld/tqdm_1647339053476/work
+traitlets==5.1.1
+typer==0.4.1
+typing_extensions==4.2.0
+tzdata==2022.1
+tzlocal==4.2
+urllib3==1.26.9
+validators==0.20.0
+wasabi==0.9.1
+watchdog==2.1.9
+wcwidth==0.2.5
+webencodings==0.5.1
+widgetsnbextension==3.6.0
+zipp==3.8.0
