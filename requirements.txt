@@ -9,7 +9,6 @@ beautifulsoup4==4.10.0
 bleach==4.1.0
 blinker==1.4
 blis==0.7.8
-Bottleneck @ file:///opt/concourse/worker/volumes/live/ac8c8ef3-2ed0-42e9-6ec0-5bb05ad938f6/volume/bottleneck_1607575111469/work
 cachetools==5.2.0
 catalogue==2.0.7
 certifi==2021.10.8
