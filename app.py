@@ -9,8 +9,6 @@ import sklearn
 pickele_in = open('bhpm.pkl','rb')
 lr = pickle.load(pickele_in)
 
-def welcome():
-    return 'Welcome !'
 
 def predict_price(location,sqft,bath,bhk):    
 
@@ -25,12 +23,12 @@ def predict_price(location,sqft,bath,bhk):
 def main():
     home = pd.read_csv('Bengaluru_House_Data.csv')
     loc = home['location'].unique()
-    st.title('New App')
-    html_temp = """
-    <h2 style = "colour:black; text-align:left: ">Streamlit App </h2>
-    """
-    st.markdown(html_temp, unsafe_allow_html = True)
-    location = st.selectbox('Locaton',loc)
+    st.title('Bangaluru House Price Prediction')
+    # html_temp = """
+    # <h2 style = "colour:black; text-align:left: ">Streamlit App </h2>
+    # """
+    # st.markdown(html_temp, unsafe_allow_html = True)
+    # location = st.selectbox('Locaton',loc)
     st.subheader('Area :')
     sqrt = st.slider('In sq-ft',min_value = 300, max_value = 3000)
     st.subheader('Bathrooms :')
