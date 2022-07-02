@@ -8,7 +8,7 @@ import pickle
 import numpy as np
 import sklearn
 
-pickele_in = open('house.pkl','rb')
+pickele_in = open('b_house.pkl','rb')
 lr = pickle.load(pickele_in)
 
 
