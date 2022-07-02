@@ -30,7 +30,7 @@ def main():
     # <h2 style = "colour:black; text-align:left: ">Streamlit App </h2>
     # """
     # st.markdown(html_temp, unsafe_allow_html = True)
-    # location = st.selectbox('Locaton',loc)
+    location = st.selectbox('Locaton',loc)
     st.subheader('Area :')
     sqrt = st.slider('In sq-ft',min_value = 300, max_value = 3000)
     st.subheader('Bathrooms :')
