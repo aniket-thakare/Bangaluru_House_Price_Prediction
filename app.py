@@ -34,9 +34,9 @@ def main():
     st.subheader('Area :')
     sqrt = st.slider('In sq-ft',min_value = 300, max_value = 3000)
     st.subheader('BHK :')
-    bhk = st.slider('No Of BHK',min_value = 1, max_value = 10, step = 1)
+    bhk = st.slider('No Of BHK',min_value = 1, max_value = 5, step = 1)
     st.subheader('Bathrooms :')
-    bath = st.slider('No Of Bathroom',min_value = 1, max_value = 10, step = 1)
+    bath = st.slider('No Of Bathroom',min_value = 1, max_value = 5, step = 1)
 
     result = ""
 
