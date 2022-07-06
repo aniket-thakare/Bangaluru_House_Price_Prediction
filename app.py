@@ -8,7 +8,7 @@ import pickle
 import numpy as np
 import sklearn
 
-pickele_in = open('b.pickle','rb')
+pickele_in = open('bang.pickle','rb')
 lr = pickle.load(pickele_in)
 
 
