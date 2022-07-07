@@ -32,7 +32,7 @@ def main():
     # st.markdown(html_temp, unsafe_allow_html = True)
     location = st.selectbox('Locaton',loc)
     st.subheader('Area :')
-    sqrt = st.text('In sq-ft',min_value = 300, max_value = 3000)
+    sqrt = st.slider('In sq-ft',min_value = 300, max_value = 3000)
     st.subheader('BHK :')
     bhk = st.slider('No Of BHK',min_value = 1, max_value = 5, step = 1)
     st.subheader('Bathrooms :')
