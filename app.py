@@ -14,7 +14,7 @@ lr_clf = pickle.load(pickele_in)
 
 def predict_price(location,sqft,bath,bhk):    
 
-    X = np.zeros(244)
+    X = np.zeros(243)
     X[0] = sqft
     X[1] = bath
     X[2] = bhk
