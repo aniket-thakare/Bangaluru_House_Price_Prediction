@@ -8,8 +8,8 @@ import pickle
 import numpy as np
 import sklearn
 
-pickele_in = open('b_house.pkl','rb')
-lr = pickle.load(pickele_in)
+pickele_in = open('banglore_home_prices_model.pickle','rb')
+lr_clf = pickle.load(pickele_in)
 
 
 def predict_price(location,sqft,bath,bhk):    
@@ -20,7 +20,7 @@ def predict_price(location,sqft,bath,bhk):
     X[2] = bhk
    
 
-    return np.round(lr.predict([X])[0],2)    
+    return np.round(lr_clf.predict([X])[0],2)    
 
 def main():
     home = pd.read_csv('Bengaluru_House_Data.csv')
@@ -32,7 +32,7 @@ def main():
     # st.markdown(html_temp, unsafe_allow_html = True)
     location = st.selectbox('Locaton',loc)
     st.subheader('Area :')
-    sqrt = st.slider('In sq-ft',min_value = 300, max_value = 3000)
+    sqrt = st.text('In sq-ft',min_value = 300, max_value = 3000)
     st.subheader('BHK :')
     bhk = st.slider('No Of BHK',min_value = 1, max_value = 5, step = 1)
     st.subheader('Bathrooms :')
